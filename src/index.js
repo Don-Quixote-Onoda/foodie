@@ -1,9 +1,13 @@
 import React from 'react';
+import './index.css';
+import Home from './ui/pages/home/Home';
 import ReactDOM from 'react-dom/client';
 
 export default function App () {
   return (
-    <h1>Hello</h1>
+    <div className='App'>
+      <Home />
+    </div>
   )
 }
 
